@@ -1,0 +1,42 @@
+*:focus {
+  outline: none;
+}
+.nav-bar {
+  background: dodgerblue;
+  padding: 10px;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+}
+.smurf-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  border-radius: 10px;
+  width: 100%;
+  background: white;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  button {
+    background: dodgerblue;
+    border: none;
+    cursor: pointer;
+    i {
+      font-size: 1.2rem;
+      color: white;
+    }
+    &:hover {
+      background: darken(dodgerblue, 5%);
+    }
+  }
+  label {
+    width: 29%;
+    padding: 5px;
+    color: grey;
+    input {
+      padding: 10px;
+      border: none;
+      height: auto;
+      font-size: 1.2rem;
+      border-bottom: 1px solid grey;
+    }
+  }
+}
